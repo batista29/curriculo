@@ -16,20 +16,23 @@
         border: 5px solid rgb(0, 0, 0);
     }
 
+    .botoes{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
     button {
         background-color: rgb(220, 255, 255);
         border-radius: 5px;
         border: 2px solid black;
         font-size: 15px;
         height: 25px;
-        width: 90%;
+        width: 95%;
         font-weight: bold;
         margin: 10px 5px 10px 5px;
-    }
-
-    .botoes{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
     }
 
     ul,li{
