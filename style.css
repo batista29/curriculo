@@ -12,7 +12,7 @@ body{
 
 main{
     display: flex;
-    background-color: rgb(0, 27, 43);
+    background-color: rgb(33, 40, 44);
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -20,9 +20,9 @@ main{
 
 .infos{
     display: grid;
-    background-color: rgb(200, 228, 255);
+    background-color: rgb(255, 255, 255);
     height: 50%;
-    width: 45%;
+    width: 55%;
     justify-content: center;
     align-items: center;
     border-radius: 100px;
@@ -34,11 +34,18 @@ main{
 }
 
 button{
-    background-color: rgb(200, 228, 255);
-    border: none;
-    border-bottom: 1px solid black;
+    background-color: rgb(220, 255, 255);
+    border-radius: 5px;
+    border: 2px solid black;
     font-size: 15px;
+    height: 25px;
+    width: fit-content;
     font-weight: bold;
+}
+
+.button-select{
+    background-color: black;
+    color: white;
 }
 
 li{
